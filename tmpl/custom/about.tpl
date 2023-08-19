@@ -1,136 +1,1904 @@
-<!DOCTYPE html>
-<html>
+<html lang="zxx">
 
-
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>{$settings.site_name} LTD</title>
-  <link rel="shortcut icon" href="styles/assets/images/favicon.png">
-  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet">
-  <link href='styles/assets/bootstrap.min.css' rel='stylesheet' type='text/css'>
-  <link href='styles/assets/animate.css' rel='stylesheet' type='text/css'>
-  <link href='styles/assets/custom_back.css' rel='stylesheet' type='text/css'>
-  <script src='styles/assets/jquery.js' type='text/javascript'></script>
-  <script src="styles/assets/wow.js"></script>
-  <script src="styles/assets/wow.min.js"></script>
-  <script type="text/javascript" src="styles/assets/bootstrap.min.js"></script>
-  <script src='styles/assets/setting.js' type='text/javascript'></script>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>About Us | Golden TradeX</title>
+
+  <link rel="icon" href="img/logo-icon.png">
+
+  <!--font star-->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- aos -->
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- fancybox-->
+
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+  <!-- Bootstrap-->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <!-- JavaScript-->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <!-- nice-select -->
+
+  <link rel="stylesheet" href="css/nice-select.css">
+  <!-- slick  -->
+
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+
+  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+
+  <!--Stylesheet-->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- style -->
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--responsive  -->
+
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- color -->
+
+  <link rel="stylesheet" href="css/color.css">
 
 
-  <script type="text/javascript">
-  //// Get the CryptoCurrency Information from the API
-  jQuery.ajax({
-    url: "https://min-api.cryptocompare.com/data/pricemulti",
-    data: "fsyms=BTC,ETH,DASH,LTC&tsyms=USD",
-    dataType : 'json',
-  }).done(function(data) {
-    // console.log( "BTC : " + data.BTC.USD + ", ETH : " + data.ETH.USD + ", DASH : " + data.DASH.USD, LTC : " + data.LTC.USD);
-    jQuery(".dashCoin").html('$' + data.DASH.USD);
-    jQuery(".ethCoin").html('$' + data.ETH.USD);
-    jQuery(".bitCoin").html('$' + data.BTC.USD);
-    jQuery(".liteCoin").html('$' + data.LTC.USD);
-  }).fail(function() {
-    console.log( "API error" );
-  });
-</script>
+
+
 
 </head>
+
 <body>
-  <div class="wrapper">
-    <div class="headerContainer">
-      <div class="headerInner fadeInLeft wow"> <a href="?a=home" id="logo"></a>
-        <p>1 BTC: <span class="bitCoin"></span></p>
-        <div class="hdRight">
-          <div class="mainNavRight">
-            <div class="navbar">
-              <div class="navbar-inner">
-                <ul class="nav">
-                  <li><a href="?a=home">Home</a></li>
-                  <li><a style="color:#c79021!important;" href="?a=about">About</a></li>
-                  <li><a href="?a=faq">FAQ </a></li>
-                  <li><a href="?a=cust&amp;page=investment">PLANS</a></li>
-                  <li><a href="?a=affiliate">AFFILIATES</a></li>
-                  <li><a href="?a=support">SUPPORT</a></li>
-                  <li><a href="?a=paidout">PAID</a></li>
-                  {if $userinfo.logged != 1}
-                  <li><a href="?a=login" class="login">login</a></li>
-                  <li><a href="?a=signup" class="signup">signup</a></li>{else}
 
-                  <li><a href="?a=account" class="signup">dashboard</a></li>{/if}
-                </ul>
-              </div>
-            </div>
+<!--star header-->
+
+
+
+<div class="preloader">
+
+  <img src="./img/preloader.gif" alt="loader-img"> </div>
+
+<!--star header-->
+
+
+
+<div class="mobile-search">
+
+  <div class="container">
+
+    <div class="row d-flex justify-content-center">
+
+      <div class="col-md-11">
+
+        <label>What are you lookking for?</label>
+
+        <input type="text" placeholder="Type Here to Search">
+
+      </div>
+
+      <div class="col-1 d-flex justify-content-end align-items-center">
+
+        <div class="search-cross-btn">
+
+
+
+          <i class="fa fa-times"></i>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<header class="header-one">
+
+
+
+  <div class="top-bar">
+
+
+
+    <div class="container">
+
+
+
+      <div class="contact-details">
+
+
+
+        <a href="callto:+44(0)2076897888"><i class="fa fa-phone"></i>Phone:  +44 (0) 207 689 7888</a>
+
+
+
+        <a href="mailto:info@company.co.uk"><i class="fa fa-envelope"></i>Email:  info@company.co.uk</a>
+
+
+
+      </div>
+
+
+
+    </div>
+
+
+
+  </div>
+
+
+
+  <div class="desktop-nav">
+
+
+
+    <div class="container">
+
+
+
+      <div class="row align-items-center">
+
+
+
+        <div class="col-lg-3">
+
+
+
+          <div class="logo-head ">
+
+            <a href="JavaScript:void(0)">
+
+              <img src="img/logo.png" alt="logo">
+
+            </a>
+
+            <i class="fa fa-solid fa-bars desplay" id="nav-icon4"></i>
+
           </div>
+
+        </div>
+
+
+
+        <div class="col-lg-6">
+
+
+
+          <div class="menu-container">
+
+            <nav>
+
+              <ul class="menu">
+
+                <li class="dropdown dropdown-1 item-has-children">
+
+                  Home
+
+                  <ul class="dropdown_menu dropdown_menu-1">
+
+                    <li class="dropdown_item-1"><a href="index.html">Home 1</a></li>
+
+                    <li class="dropdown_item-2"><a href="index-2.html">Home 2</a></li>
+
+                    <li class="dropdown_item-3"><a href="index-3.html">Home 3</a></li>
+
+                    <li class="dropdown_item-4"><a href="index-4.html">Home 4</a></li>
+
+                  </ul>
+
+                </li>
+
+                <li class="dropdown dropdown-1"><a href="about-us.html">
+
+                    About</a>
+
+                </li><li class="dropdown dropdown-1 item-has-children">
+
+                  Services
+
+                  <ul class="dropdown_menu dropdown_menu-1">
+
+                    <li class="dropdown_item-1"><a href="our-service.html">Our Service</a></li>
+
+                    <li class="dropdown_item-2"><a href="service-details.html">Service Details</a></li>
+
+                  </ul>
+
+                </li>
+
+                <li class="dropdown dropdown-1 item-has-children">
+
+                  Pages
+
+                  <ul class="dropdown_menu dropdown_menu-1">
+
+                    <li class="dropdown_item-1"><a href="JavaScript:void(0)">Case Study</a>
+
+                      <ul class="dropdown_menu dropdown_menu-1 dropdown_menu-2">
+
+                        <li class="dropdown_item-1"><a href="case-study-1.html">Case Study 1</a></li>
+
+                        <li class="dropdown_item-2"><a href="case-study-2.html">Case Study 2</a></li>
+
+                        <li class="dropdown_item-3"><a href="case-study-3.html">Case Study 3</a></li>
+
+                        <li class="dropdown_item-4"><a href="case-study-4.html">Case Study 4</a></li>
+
+                        <li class="dropdown_item-5"><a href="case-study-details.html">Case Study Details</a></li>
+
+                      </ul>
+
+                    </li>
+
+                    <li class="dropdown_item-2"><a href="team-Details.html">Team Details</a></li>
+
+                    <li class="dropdown_item-3"><a href="pricing-plans.html">Pricing Plans</a></li>
+
+                    <li class="dropdown_item-4"><a href="404.html">404</a></li>
+
+                  </ul>
+
+                </li>
+
+                <li class="dropdown dropdown-1 item-has-children">
+
+                  News
+
+                  <ul class="dropdown_menu dropdown_menu-1">
+
+                    <li class="dropdown_item-1"><a href="JavaScript:void(0)">Our Style</a>
+
+                      <ul class="dropdown_menu dropdown_menu-1 dropdown_menu-2">
+
+                        <li class="dropdown_item-1"><a href="our-style-1.html">Our Style 1</a></li>
+
+                        <li class="dropdown_item-2"><a href="our-style-2.html">Our Style 2</a></li>
+
+                        <li class="dropdown_item-3"><a href="our-style-3.html">Our Style 3</a></li>
+
+                      </ul>
+
+                    </li>
+
+
+
+                    <li class="dropdown_item-1"><a href="JavaScript:void(0)">Blog</a>
+
+                      <ul class="dropdown_menu dropdown_menu-1 dropdown_menu-2">
+
+                        <li class="dropdown_item-1"><a href="blog-details.html">Blog Details 1</a></li>
+
+                        <li class="dropdown_item-2"><a href="blog-details-2.html">Blog Details 2</a></li>
+
+
+
+                      </ul>
+
+                    </li>
+
+                  </ul>
+
+                </li>
+
+                <li class="dropdown dropdown-1"><a href="contact-us.html">
+
+                    Contact</a>
+
+                </li>
+
+              </ul>
+
+            </nav>
+
+          </div>
+
+
+
+        </div>
+
+
+
+        <div class="col-lg-3">
+
+
+
+          <ul class="top-bar-icon">
+
+
+
+            <li class="bar-menu"><a href="JavaScript:void(0)"><i class="fa fa-solid fa-bars"></i></a></li>
+
+
+
+            <li><a href="JavaScript:void(0)"><i class="fa fa-search search-btn"></i></a></li>
+
+
+
+            <li><div class="work top">
+
+
+
+                <a class="btn-one" href="JavaScript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+
+
+
+                  <span class="txt">Request Quote</span>
+
+
+
+                </a>
+
+
+
+              </div></li>
+
+
+
+          </ul>
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+    </div>
+
+
+
+  </div>
+
+
+
+  <div class="mobile-nav" id="mobile-nav" style="display: block;">
+
+
+
+    <div class="res-log">
+
+
+
+      <a href="index.html">
+
+
+
+        <img src="img/logo-b.png" alt="Responsive Logo">
+
+
+
+      </a>
+
+
+
+    </div>
+
+
+
+    <ul>
+
+
+
+      <li class="menu-item-has-children">
+
+
+
+        <a href="JavaScript:void(0)">Home</a>
+
+
+
+        <ul class="sub-menu">
+
+
+
+          <li><a href="index.html">Home 1</a>
+
+
+
+          <li><a href="index-2.html">Home 2</a></li>
+
+
+
+          <li><a href="index-3.html">Home 3</a></li>
+
+
+
+          <li><a href="index-4.html">Home 4</a></li>
+
+
+
+        </ul>
+
+
+
+      </li>
+
+
+
+      <li><a href="about-us.html">About</a>
+
+
+
+      </li>
+
+
+
+      <li class="menu-item-has-children"><a href="JavaScript:void(0)">Services</a>
+
+
+
+        <ul class="sub-menu">
+
+
+
+          <li><a href="our-service.html">Our Service</a></li>
+
+
+
+          <li><a href="service-details.html">Service Details</a></li>
+
+
+
+        </ul>
+
+
+
+      </li>
+
+
+
+      <li class="menu-item-has-children"><a href="JavaScript:void(0)">Pages</a>
+
+
+
+        <ul class="sub-menu">
+
+
+
+          <!-- Third Level Menu Html Code -->
+
+          <li class="menu-item-has-children"><a href="JavaScript:void(0)">Case Study</a>
+
+            <ul class="sub-menu">
+
+              <li><a href="case-study-1.html">Case Study 1</a>
+
+
+
+              <li><a href="case-study-2.html">Case Study 2</a></li>
+
+
+
+              <li><a href="case-study-3.html">Case Study 3</a></li>
+
+
+
+              <li><a href="case-study-4.html">Case Study 4</a></li>
+
+
+
+              <li><a href="case-study-details.html">Case Study Details</a></li>
+
+            </ul>
+
+          </li>
+
+          <li><a href="team-Details.html">Team Details</a></li>
+
+          <li><a href="pricing-plans.html">Pricing Plans</a></li>
+
+          <li><a href="404.html">404</a></li>
+
+        </ul>
+
+
+
+      </li>
+
+
+
+      <li class="menu-item-has-children"><a href="JavaScript:void(0)">News</a>
+
+
+
+        <ul class="sub-menu">
+
+
+
+          <li class="menu-item-has-children"><a href="JavaScript:void(0)">Our Style</a>
+
+            <ul class="sub-menu">
+
+              <li><a href="our-style-1.html">Our Style 1</a></li>
+
+
+
+              <li><a href="our-style-2.html">Our Style 2</a></li>
+
+
+
+              <li><a href="our-style-3.html">Our Style 3</a></li>
+
+            </ul>
+
+
+
+          <li class="menu-item-has-children"><a href="JavaScript:void(0)">Blog</a>
+
+            <ul class="sub-menu">
+
+              <li><a href="blog-details.html">Blog Details</a></li>
+
+
+
+              <li><a href="blog-details-2.html">Blog Details 2</a></li>
+
+            </ul>
+
+
+
+
+
+
+
+        </ul>
+
+
+
+      </li>
+
+
+
+      <li><a href="contact-us.html">Contact</a></li>
+
+
+
+    </ul>
+
+
+
+    <a href="JavaScript:void(0)" id="res-cross"></a>
+
+
+
+    <div class="contact-details social">
+
+
+
+      <a href="callto:+44(0)2076897888"><i class="fa fa-phone"></i>Phone:  +44 (0) 207 689 7888</a>
+
+
+
+      <a href="mailto:info@company.co.uk"><i class="fa fa-envelope"></i>Email:  info@company.co.uk</a>
+
+
+
+    </div>
+
+
+
+    <ul class="social-icons">
+
+
+
+      <li><a class="f" href="JavaScript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
+
+
+
+      <li><a class="t" href="JavaScript:void(0)"><i class="fa fa-twitter"></i></a></li>
+
+
+
+      <li><a class="in" href="JavaScript:void(0)"><i class="fa fa-linkedin"></i></a></li>
+
+
+
+      <li><a class="g" href="JavaScript:void(0)"><i class="fa fa-google"></i></a></li>
+
+
+
+    </ul>
+
+
+
+  </div>
+
+
+
+</header>
+
+
+
+<section class="featured-area">
+
+
+
+  <div class="baner" style="background-image: url(https://via.placeholder.com/1920x430);">
+
+
+
+    <div class="container">
+
+
+
+      <div class="row">
+
+
+
+        <div class="studies">
+
+
+
+          <h3>About us</h3>
+
+
+
+          <a href="index.html">Home</a>
+
+
+
+          <a href="JavaScript:void(0)" class="on"><i class="fa fa-angle-right"></i>About us</a>
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+    </div>
+
+
+
+  </div>
+
+
+
+</section>
+
+
+
+<!--end header-->
+
+
+
+<!--Expert star-->
+
+
+
+<section class="Expert-1 gap">
+
+
+
+  <div class="container">
+
+
+
+    <div class="row align-items-center">
+
+
+
+      <div class="col-lg-6 col-md-12 col-sm-12">
+
+
+
+        <div class="Industry" data-aos="fade-up" data-aos-delay="200" data-aos-duration="400">
+
+
+
+          <span class="a">ABOUT THE VENUE AGENCY</span>
+
+
+
+          <h2>Expert knowledge of
+
+            the Industry</h2>
+
+
+
+          <p>Lorem ipsum is simply free text dolor sit amet, consectetur no
+
+            tted adipisicing elit sed do eiusmod tempor incididunt ut labore
+
+            et dolore magna aliqua lonm andhn. Lorem ipsum is simply fre
+
+            text dolor sit amet, consectetur no tted adipisicing elit sed do ei
+
+            et dolore magna aliqua lonm andhn.</p>
+
+
+
+          <img alt="signature" src="img/sin.png">
+
+
+
+          <span class="2"> Company Director</span>
+
+          <h5>  Elena Hachaturianc</h5>
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+      <div class="col-lg-6">
+
+
+
+        <div class="row" data-aos="fade-up" data-aos-delay="400" data-aos-duration="600">
+
+
+
+          <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+
+
+
+            <div class="audit-1">
+
+
+
+              <img alt="laptop" src="https://via.placeholder.com/300x300'">
+
+
+
+            </div>
+
+
+
+          </div>
+
+
+
+          <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+
+
+
+            <div class="audit">
+
+
+
+              <img alt="man" src="https://via.placeholder.com/300x300'">
+
+
+
+            </div>
+
+
+
+          </div>
+
+
+
+          <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+
+
+
+            <div class="audit-3">
+
+              <a data-fancybox href="https://www.youtube.com/watch?v=uemObN8_dcw"><i class="fa fa-play"></i></a>
+
+
+
+            </div>
+
+
+
+          </div>
+
+
+
+          <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+
+
+
+
+
+            <div class="audit-4">
+
+
+
+              <img alt="men" src="https://via.placeholder.com/300x300'">
+
+
+
+            </div>
+
+
+
+          </div>
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+    </div>
+
+
+
+  </div>
+
+
+
+</section>
+
+
+
+<!--Expert end-->
+
+
+
+<!--Services star-->
+
+
+
+<section class="Service-style-1 gap" style="background-image: url(./img/petteren.jpg)">
+
+
+
+  <div class="container">
+
+
+
+    <div class="row">
+
+
+
+      <div class="col-lg-4 col-md-6 col-sm-6">
+
+
+
+        <div class="Provide" data-aos="fade-up" data-aos-delay="200" data-aos-duration="400">
+
+
+
+          <span>Grow Your Business</span>
+
+
+
+          <h4>Provide Always
+
+            Best Services</h4>
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+      <div class="col-lg-4 col-md-6 col-sm-6">
+
+
+
+        <div class="Provid drop-box" data-aos="fade-up" data-aos-delay="400" data-aos-duration="600">
+
+
+
+          <img alt="Service" src="img/Services-6.png">
+
+
+
+          <a href="JavaScript:void(0)">Strategy & Innovation</a>
+
+
+
+          <div class="Sales">
+
+
+
+            <h4>Sales & Marketing</h4>
+
+
+
+            <p>Lorem ipsum dolor sit amet, consectetur
+
+              adipiscing elit, sed do eiusmod tempor
+
+              incididunt ut labore et dolore.</p>
+
+
+
+          </div>
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+      <div class="col-lg-4 col-md-6 col-sm-6">
+
+
+
+        <div class="Provid drop-box" data-aos="fade-up" data-aos-delay="500" data-aos-duration="700">
+
+
+
+          <img alt="Service" src="img/services-1.png">
+
+
+
+          <a href="JavaScript:void(0)">Strategy & Innovation</a>
+
+
+
+          <div class="Sales">
+
+
+
+            <h4>Sales & Marketing</h4>
+
+
+
+            <p>Lorem ipsum dolor sit amet, consectetur
+
+              adipiscing elit, sed do eiusmod tempor
+
+              incididunt ut labore et dolore.</p>
+
+
+
+          </div>
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+      <div class="col-lg-4 col-md-6 col-sm-6">
+
+
+
+        <div class="Provid drop-box" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+
+
+
+          <img alt="Service" src="img/Services-7.png">
+
+
+
+          <a href="JavaScript:void(0)">Management Tool</a>
+
+
+
+          <div class="Sales">
+
+
+
+            <h4>Sales & Marketing</h4>
+
+
+
+            <p>Lorem ipsum dolor sit amet, consectetur
+
+              adipiscing elit, sed do eiusmod tempor
+
+              incididunt ut labore et dolore.</p>
+
+
+
+          </div>
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+      <div class="col-lg-4 col-md-6 col-sm-6">
+
+
+
+        <div class="Provid drop-box" data-aos="fade-up" data-aos-delay="900" data-aos-duration="1200">
+
+
+
+          <img alt="Service" src="img/Services-8.png">
+
+
+
+          <a href="JavaScript:void(0)">IT Consulting</a>
+
+
+
+          <div class="Sales">
+
+
+
+            <h4>Sales & Marketing</h4>
+
+
+
+            <p>Lorem ipsum dolor sit amet, consectetur
+
+              adipiscing elit, sed do eiusmod tempor
+
+              incididunt ut labore et dolore.</p>
+
+
+
+          </div>
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+      <div class="col-lg-4 col-md-6 col-sm-6">
+
+
+
+        <div class="Provid drop-box" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1400">
+
+
+
+          <img alt="Service" src="img/Services-4.png">
+
+
+
+          <a href="JavaScript:void(0)">Quality & Regulatory</a>
+
+
+
+          <div class="Sales">
+
+
+
+            <h4>Sales & Marketing</h4>
+
+
+
+            <p>Lorem ipsum dolor sit amet, consectetur
+
+              adipiscing elit, sed do eiusmod tempor
+
+              incididunt ut labore et dolore.</p>
+
+
+
+          </div>
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+    </div>
+
+
+
+  </div>
+
+
+
+</section>
+
+
+
+<!--Services end-->
+
+
+
+<!--star Trusted-->
+
+
+
+<section class="Trusted gap">
+
+
+
+  <div class="container">
+
+
+
+    <div class="Trusted-img slider slider-for-two" data-aos="fade-up" data-aos-delay="200" data-aos-duration="400">
+
+
+
+      <div class="row">
+
+
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+
+
+
+          <div class="Trusted-data">
+
+
+
+            <h3>Trusted Client’s
+
+              Reviews</h3>
+
+
+
+            <p>"Quam lacus suspe ad vitae semper Nisi vit
+
+              mea tellus maur Quam lacus suspe ad vitae
+
+              perci mea tellus mau i mea tellus maur s ma
+
+              mur Quam lacus lacus suspe ad ."</p>
+
+
+
+            <span>Philip Lewis - SEO</span>
+
+
+
+          </div>
+
+        </div>
+
+
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+
+
+
+          <div>
+
+
+
+            <img alt="man" src="https://via.placeholder.com/521x521">
+
+          </div>
+
+
+
+
+
+        </div>
+
+
+
+      </div>
+
+      <div class="row">
+
+
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+
+
+
+          <div class="Trusted-data">
+
+
+
+            <h3>Trusted Client’s
+
+              Reviews</h3>
+
+
+
+            <p>"Trusted Quam lacus suspe ad vitae semper Nisi vit
+
+              mea Quam lacus lacus suspe ad
+
+              tellus maur Quam lacus suspe ad vitae
+
+              mau i mea tellus maur s ma perci mea tellus
+
+              mur  ."</p>
+
+
+
+            <span>Philip Lewis -zain SEO</span>
+
+
+
+          </div>
+
+        </div>
+
+
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+
+
+
+
+
+          <div>
+
+            <img alt="man" src="https://via.placeholder.com/521x521">
+
+          </div>
+
+
+
+
+
+        </div>
+
+
+
+      </div>
+
+      <div class="row">
+
+
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+
+
+
+          <div class="Trusted-data">
+
+
+
+            <h3>Trusted Client’s
+
+              Reviews</h3>
+
+
+
+            <p>"Quam lacus suspe ad vitae semper Nisi vit
+
+              mea tellus maur Quam lacus suspe ad vitae
+
+              perci mea tellus mau i mea tellus maur s ma
+
+              mur Quam lacus lacus suspe ad ."</p>
+
+
+
+            <span>Philip Lewis masha- SEO</span>
+
+
+
+          </div>
+
+        </div>
+
+
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+
+
+
+
+
+          <div>
+
+            <img alt="man" src="https://via.placeholder.com/521x521">
+
+          </div>
+
+
+
+
+
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+
+
+    <div class="trusted slider slider-nav-two" data-aos="fade-up" data-aos-delay="400" data-aos-duration="600">
+
+      <div>
+
+        <img alt="man" src="https://via.placeholder.com/74x74">
+
+      </div>
+
+      <div>
+
+        <img alt="girl" src="https://via.placeholder.com/74x74">
+
+      </div>
+
+      <div>
+
+        <img alt="girl" src="https://via.placeholder.com/74x74">
+
+      </div>
+
+
+
+    </div>
+
+
+
+  </div>
+
+
+
+</section>
+
+
+
+<!--end Trusted-->
+
+
+
+<!--Sponsors star-->
+
+
+
+<section class="Sponsors gap no-top">
+
+
+
+  <div class="heading" data-aos="fade-up" data-aos-duration="1000">
+
+
+
+    <span>providers of  consulting solutions</span>
+
+
+
+    <h3>Sponsors & Partners</h3>
+
+
+
+  </div>
+
+
+
+  <div class="container">
+
+
+
+    <div class="row custome-two" data-aos="fade-up" data-aos-duration="1000">
+
+
+
+      <div class="col-lg-3">
+
+
+
+        <div  class="customer">
+
+
+
+          <img alt="customer" src="img/customer-1.png">
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+      <div class="col-lg-3">
+
+
+
+        <div class="customer">
+
+
+
+          <img alt="customer" src="img/customer-2.png">
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+      <div class="col-lg-3">
+
+
+
+        <div class="customer">
+
+
+
+          <img alt="customer" src="img/customer-3.png">
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+      <div class="col-lg-3">
+
+
+
+        <div class="customer">
+
+
+
+          <img alt="customer" src="img/customer-4.png">
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+      <div class="col-lg-3">
+
+
+
+        <div  class="customer">
+
+
+
+          <img alt="customer" src="img/customer-1.png">
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+    </div>
+
+
+
+  </div>
+
+
+
+</section>
+
+
+
+<!--Sponsors end-->
+
+
+
+<!--star footer-->
+
+
+
+<footer class="footer-one">
+
+
+
+  <div class="container">
+
+
+
+    <div class="updates">
+
+
+
+      <div class="row">
+
+
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+
+
+
+          <div class="Newsletter">
+
+
+
+            <h3>Newsletter Subscribe</h3>
+
+
+
+            <p>Subscribe email and get recent updates or news</p>
+
+
+
+          </div>
+
+
+
+        </div>
+
+
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+
+
+
+          <form>
+
+
+
+            <input type="text" name="one" placeholder="Enter your email address">
+
+
+
+            <button class="one">Subscribe</button>
+
+
+
+          </form>
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+    </div>
+
+
+
+    <div class="Lorem">
+
+
+
+      <div class="row">
+
+
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+
+
+
+          <div class="logo">
+
+            <a href="javascript:void(0)">
+
+              <img alt="logo" src="img/logo.png">
+
+            </a>
+
+            <p>Lorem ipsum dolor sit amet, consectetur
+
+              adipiscing elit, sed do eiusmod tempor in
+
+              cididunt ut labore et dolo aliqua.</p>
+
+
+
+            <ul class="social-media">
+
+
+
+              <li><a class="f" href="javascript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
+
+
+
+              <li><a class="t" href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+
+
+
+              <li><a  class="in" href="javascript:void(0)"><i class="fa fa-linkedin"></i></a></li>
+
+
+
+            </ul>
+
+
+
+          </div>
+
+
+
+        </div>
+
+
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+
+
+
+          <div class="Quick">
+
+
+
+            <h4>Quick Links</h4>
+
+
+
+          </div>
+
+
+
+          <ul class="Quick-Links">
+
+
+
+            <li><a href="blog-details.html"><i class="fa fa-angle-right"></i>Blog Details</a></li>
+
+
+
+            <li><a href="case-study-details.html"><i class="fa fa-angle-right"></i>Case Details</a></li>
+
+
+
+            <li><a href="our-service.html"><i class="fa fa-angle-right"></i>Our Service</a></li>
+
+
+
+            <li><a href="pricing-plans.html"><i class="fa fa-angle-right"></i>Pricing Plans</a></li>
+
+
+
+            <li><a href="team-Details.html"><i class="fa fa-angle-right"></i>Team Details</a></li>
+
+
+
+            <li><a href="service-details.html"><i class="fa fa-angle-right"></i>Service Details</a></li>
+
+
+
+            <li><a href="about-us.html"><i class="fa fa-angle-right"></i>About Us</a></li>
+
+
+
+            <li><a href="contact-us.html"><i class="fa fa-angle-right"></i>Contact Us</a></li>
+
+
+
+            <li><a href="contact-us.html"><i class="fa fa-angle-right"></i>Contact</a></li>
+
+
+
+          </ul>
+
+
+
+        </div>
+
+
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+
+
+
+          <div class="Quick">
+
+
+
+            <h4>Instagram Photos</h4>
+
+
+
+          </div>
+
+
+
+          <ul class="Instagram Photos">
+
+
+            <li><a href="https://via.placeholder.com/110x100" data-fancybox="gallery"><img alt="girl" src="https://via.placeholder.com/110x100"></a></li>
+
+            <li><a href="https://via.placeholder.com/110x100" data-fancybox="gallery"><img alt="laptop" src="https://via.placeholder.com/110x100"></a></li>
+
+            <li><a href="https://via.placeholder.com/110x100" data-fancybox="gallery"><img alt="boy" src="https://via.placeholder.com/110x100"></a></li>
+
+            <li><a href="https://via.placeholder.com/110x100" data-fancybox="gallery"><img alt="man laptop" src="https://via.placeholder.com/110x100"></a></li>
+
+            <li><a href="https://via.placeholder.com/110x100" data-fancybox="gallery"><img alt="boy" src="https://via.placeholder.com/110x100"></a></li>
+
+            <li><a href="https://via.placeholder.com/110x100" data-fancybox="gallery"><img alt="two-man" src="https://via.placeholder.com/110x100"></a></li>
+
+          </ul>
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+    </div>
+
+
+
+  </div>
+
+
+
+  <div class="footer-end">
+
+
+
+    <div class="container">
+
+
+
+      <div class="foot">
+
+
+
+        <div class="Copyright">
+
+
+
+          <h3>© Copyright <a href="javascript:void(0)">2022 Busniz.</a> All Rights Reserved.</h3>
+
+
+
+        </div>
+
+
+
+        <ul class="Privacy">
+
+
+
+          <li><a href="javascript:void(0)">Privacy Statement</a></li>
+
+          <li><a href="javascript:void(0)">Terms & Conditions</a></li>
+
+          <li><a href="javascript:void(0)">Cookie Policy</a></li>
+
+          <li><a href="javascript:void(0)">Sitemap</a></li>
+
+
+
+        </ul>
+
+
+
+      </div>
+
+
+
+    </div>
+
+
+
+  </div>
+
+</footer>
+
+
+
+<!--end footer-->
+
+
+
+<!-- BackToTop Button -->
+
+<a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+
+<!-- jquery -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<!--fancybox  -->
+
+<script src="js/jquery.fancybox.min.js"></script>
+
+<!-- aos -->
+
+<script src="js/aos.js"></script>
+
+<!-- nice-select -->
+
+<script src="js/jquery.nice-select.min.js"></script>
+
+<!-- slick -->
+
+<script src="js/slick.min.js"></script>
+
+<!-- custom -->
+
+<script src="js/custom.js"></script>
+
+<div class="modal fade request-quote" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="consultation" data-aos="zoom-in-left" data-aos-delay="400" data-aos-duration="600">
+          <h3>Contact me if you have any concerns</h3>
+          <form class="fast">
+            <select class="nice-select Advice" >
+              <option>Finance Advice</option>
+              <option>Finance Advice 1</option>
+              <option>Finance Advice 2</option>
+              <option>Finance Advice 3</option>
+            </select>
+            <input class="a" type="text" name="Complete Name" placeholder="Complete Name">
+            <input class="a" type="text" name="Email" placeholder="Email Address">
+            <textarea name="message" placeholder="Message Here"></textarea>
+            <div class="view V">
+              <button type="submit" class="btn-one" href="JavaScript:void(0)">
+                <span class="txt">Send Message</span>
+              </button>
+            </div>
+          </form>
+
         </div>
       </div>
     </div>
-
-    <div class="bannerContainer">
-      <div class="bannerInner insideheader fadeInRight wow">
-        <div class="ctn-banner">
-          <h3>About <span>us</span></h3>
-        </div>
-      </div>
-    </div>
-
   </div>
-
-  <div class="contentTopContainer">
-    <div class="contentTopInnerAbout">
-      <p> Welcome to the website of {$settings.site_name} LTD! If you find yourself here, you are definitely in search of reliable and profitable investment. Yes, you are just at the right place! Our company offers trust assets management of the highest quality on the basis of foreign exchange and profitable trade through Funds exchanges. There is no other worldwide financial market that can guarantee a Hourly ability to generate constant profit with the large price swings of BitCoin and other crypto currencies. Proposed modalities for strengthening cooperation will be accepted by anyone who uses cryptocurrency and knows about its fantastic prospects.</p>
-      <p>{$settings.site_name} LTD investment project is a product of careful preparation and fruitful work of experts in the field of mining, highly profitable trade in cryptocurrencies and online marketing. Using modern methods of doing business and a personal approach to each client, we offer a unique investment model to people who want to use cryptocurrencies not only as a method of payment, but also as a reliable source of stable income.</p>
-      <p>Your deposit is working on an ongoing basis, and makes profit every hour with the ability to withdraw profit. Your deposit is for life and irretrievable. This proposal would be interesting not only for beginners of cryptocurrency operation, but also for experienced online investors. {$settings.site_name} LTD Business uses only modern mining equipment and trades at the most stable markets, which minimizes the risk of financial loss to customers and guarantees them a stable income accrued every 60 minutes. Join our company today and start making high profits!</p>
+</div>
 
 
-    </div>
-  </div>
-  <div class="investmentContainer">
-    <div class="investmentInner">
-      <h2><span>{$settings.site_name} LTD</span> BENEFITS</h2>
-      <hr>
-      <div class="ctn-inves-row">
-        <div class="ctn-Instant Instant-part1">
-          <h1>Professional Team</h1>
-          <p>We are team of professional traders in Forex &amp; Crypto Exchange and Coins trading and Crypto Mining who know how to grab the profit end of the day.</p>
-        </div>
-        <div class="ctn-Instant Instant-part2">
-          <h1>ddos protection</h1>
-          <p>We are using one of most experienced , professional and trusted DDoS Protection and mitigation provider.</p>
-        </div>
-        <div class="ctn-Instant Instant-part3">
-          <h1>COMODO SSL Security</h1>
-          <p>Our website using Comodo SSL Security, SSL <br> encryption and that confirms that the presented content is the genuine and legitimate.</p>
-        </div>
-        <div class="ctn-Instant Instant-part4">
-          <h1>UK Registered Company</h1>
-          <p>We are a legal company registered in the UK providing its investment services to the members all around the world.</p>
-        </div>
-        <div class="ctn-Instant Instant-part5">
-          <h1>Instant Withdrawals</h1>
-          <p>Get your payment instantly as soon as you request it! Minimum withdrawal is $0.1. There is no fee for withdrawals of hourly interest.</p>
-        </div>
-        <div class="ctn-Instant Instant-part6">
-          <h1>Great Customer Support</h1>
-          <p>We understand how important having reliable support service is to you. Please don't hesitate to contact us should you have any questions and we will get back to you in 24 Hours!</p>
-        </div>
 
-      </div>
-    </div>
-  </div>
-  <div class="solidContainer">
-    <div class="solidInner zoomIn wow">
-      <div class="solid"> <a href="#" class="solid1"></a> <a href="#" class="solid2"></a> <a href="#" class="solid3"></a> <a href="#" class="solid4"></a> <a href="#" class="solid5"></a> <a href="#" class="solid6"></a> <a href="#" class="solid7"></a> <a href="#" class="solid8"></a> </div>
-    </div>
-  </div>
-  <div class="footerContainer">
-    <div class="footerInner">
-      <div class="ft-row1">
-        <h3>&copy; 2019. <a href="?a=home">{$settings.site_name}</a> ALL RIGHTS RESERVED</h3>
-      </div>
-      <div class="ft-part1"> <a href="?a=about">ABOUT US</a> <a href="?a=news">NEWS</a> <a href="?a=faq">FAQ</a> <a href="?a=support">support</a> <a href="?a=rules">terms</a><a href="?a=paidout">ALL PAID </a></div>
-    </div>
-  </div>
+
+
 </body>
-
-</html>
