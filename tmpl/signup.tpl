@@ -1,7 +1,7 @@
-{$SiteName = "Capital Coin Investment"}
+{$SiteName = "Golden TradeX LTD"}
 {$PageTage = "Secured Investment Platform"}
-{$siteLogo = "/assets/images/logo/logo.png"}
-{$siteLogoDark = "/assets/images/logo/logo.png"}
+{$siteLogo = "/img/logo-b.png"}
+{$siteLogoDark = "/img/logo-b.png"}
 {$siteIcon = "/assets/images/logo/favicon.png"}
 {$pageName = "Signup"}
 {include file="auth_header.tpl"}

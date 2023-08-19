@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6b44711-628e-4341-a770-2328f2b00207" name="Changes" comment="" />
+    <list default="true" id="b6b44711-628e-4341-a770-2328f2b00207" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/tmpl/signup.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/tmpl/signup.tpl" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +60,7 @@
       <workItem from="1692063672346" duration="8666000" />
       <workItem from="1692145730554" duration="2633000" />
       <workItem from="1692339540559" duration="3085000" />
-      <workItem from="1692410796191" duration="7762000" />
+      <workItem from="1692410796191" duration="8258000" />
     </task>
     <servers />
   </component>
