@@ -85,7 +85,7 @@
                     <div class="logo">
 
                         <a href="javascript:void(0)">
-                            <span class="py-2 px-3 rounded bg-white">
+                            <span class="py-2 px-3 rounded bg-white w-75">
                                 <img alt="logo" src="img/logo-b.png">
                             </span>
                         </a>
