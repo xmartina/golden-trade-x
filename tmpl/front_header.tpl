@@ -194,23 +194,23 @@
                 <a href="?a=about">About</a>
             </li>
 
-            <li class="menu-item-has-children">
+            <li class="">
                 <a href="../analytics">Analytics and Reporting</a>
             </li>
 
-            <li class="menu-item-has-children">
+            <li class="">
                 <a href="../services">Services</a>
             </li>
 
-            <li class="menu-item-has-children">
+            <li class="">
                 <a href="?a=faq">FAQ</a>
             </li>
 
-            <li class="menu-item-has-children">
+            <li class="">
                 <a href="?a=rules">Terms</a>
             </li>
 
-            <li class="menu-item-has-children">
+            <li class="">
                 <a href="?a=support">Contact</a>
             </li>
 
