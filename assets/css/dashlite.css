@@ -13724,7 +13724,7 @@ svg {
 }
 
 .bg-abstract {
-  background-image: linear-gradient(to right, #c3a62c calc(60% - 150px), #39469f calc(60% - 150px), #ffa500 60%, #d79f14 60%, #5b6ac6 100%);
+  background-image: linear-gradient(to right, #c3a62c calc(60% - 150px), #d79f14 60%, #5b6ac6 100%);
 }
 
 .bg-white-1 {
