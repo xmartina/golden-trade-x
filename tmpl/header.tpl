@@ -25,6 +25,7 @@
 	</style>
 	<!-- Fav Icon  -->
 	<link rel="shortcut icon" href="{$siteIcon}">
+	<link rel="stylesheet" href="/new/assets/css/added.css">
 </head>
 <body class="body-class">
 
