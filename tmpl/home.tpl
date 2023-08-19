@@ -1919,10 +1919,10 @@
             <div class="modal-body">
                 <div class="row gy-4">
                     <div class="col-lg-6">
-                        <div class="btn bg-info rounded px-4 w-100"> Register</div>
+                        <div class="btn bg-info rounded px-4 w-100"><a href="?a=signup">Register</a></div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="btn bg-primary rounded text-light px-4 w-100"> login</div>
+                        <div class="btn bg-primary rounded text-light px-4 w-100"><a href="?a=login">login</a></div>
                     </div>
                 </div>
             </div>

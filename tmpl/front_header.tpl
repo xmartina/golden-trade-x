@@ -112,31 +112,30 @@
                                 </li>
 
                                 <li class="dropdown dropdown-1">
-                                    <a href="about-us.html">
+                                    <a href="?a=about">
                                         About
                                     </a>
                                 </li>
 
                                 <li class="dropdown dropdown-1">
-                                    Analytics
+                                    <a href="../analytics">Analytics</a>
                                 </li>
 
                                 <li class="dropdown dropdown-1">
-                                    Services
+                                    <a href="../services">Services</a>
                                 </li>
 
                                 <li class="dropdown dropdown-1">
-                                    FAQ
+                                    <a href="?a=faq">FAQ</a>
                                 </li>
 
                                 <li class="dropdown dropdown-1">
-                                    Terms
+                                    <a href="?a=rules">Terms</a>
                                 </li>
 
                                 <li class="dropdown dropdown-1">
-                                    Contact
+                                    <a href="?a=support">Contact</a>
                                 </li>
-
                             </ul>
                         </nav>
                     </div>
@@ -188,31 +187,43 @@
         </div>
         <ul>
             <li class="">
-                <a href="JavaScript:void(0)">Home</a>
+                <a href="/">Home</a>
             </li>
 
             <li>
-                <a href="about-us.html">About</a>
+                <a href="?a=about">About</a>
             </li>
 
             <li class="menu-item-has-children">
-                <a href="JavaScript:void(0)">Analytics and Reporting</a>
+                <a href="../analytics">Analytics and Reporting</a>
             </li>
 
             <li class="menu-item-has-children">
-                <a href="JavaScript:void(0)">Services</a>
+                <a href="../services">Services</a>
             </li>
 
             <li class="menu-item-has-children">
-                <a href="JavaScript:void(0)">FAQ</a>
+                <a href="?a=faq">FAQ</a>
             </li>
 
             <li class="menu-item-has-children">
-                <a href="JavaScript:void(0)">Terms</a>
+                <a href="?a=rules">Terms</a>
             </li>
 
             <li class="menu-item-has-children">
-                <a href="JavaScript:void(0)">Contact</a>
+                <a href="?a=support">Contact</a>
+            </li>
+
+            <li class="menu-item-has-children">
+                <a href="javascript:void(0);">Account</a>
+                <ul class="sub-menu">
+                    <li>
+                        <a href="?=signup">Signup</a>
+                    </li>
+                    <li>
+                        <a href="?a=login">Login</a>
+                    </li>
+                </ul>
             </li>
 
         </ul>
