@@ -601,39 +601,35 @@
 
 
 
-                        <li><a href="blog-details.html"><i class="fa fa-angle-right"></i>Blog Details</a></li>
+                        <li><a href="../?a=about"><i class="fa fa-angle-right"></i>About Us</a></li>
 
 
 
-                        <li><a href="case-study-details.html"><i class="fa fa-angle-right"></i>Case Details</a></li>
+                        <li><a href="../?a=faq"><i class="fa fa-angle-right"></i>FAQ</a></li>
 
 
 
-                        <li><a href="our-service.html"><i class="fa fa-angle-right"></i>Our Service</a></li>
+                        <li><a href="../services"><i class="fa fa-angle-right"></i>Our Service</a></li>
 
 
 
-                        <li><a href="pricing-plans.html"><i class="fa fa-angle-right"></i>Pricing Plans</a></li>
+                        <li><a href="../analytics"><i class="fa fa-angle-right"></i>Analytics</a></li>
 
 
 
-                        <li><a href="team-Details.html"><i class="fa fa-angle-right"></i>Team Details</a></li>
+                        <li><a href="../?a=signup"><i class="fa fa-angle-right"></i>Register</a></li>
 
 
 
-                        <li><a href="service-details.html"><i class="fa fa-angle-right"></i>Service Details</a></li>
+                        <li><a href="../?a=login"><i class="fa fa-angle-right"></i>Login</a></li>
 
 
 
-                        <li><a href="about-us.html"><i class="fa fa-angle-right"></i>About Us</a></li>
+                        <li><a href="../?a=support"><i class="fa fa-angle-right"></i>Contact Us</a></li>
 
 
 
-                        <li><a href="contact-us.html"><i class="fa fa-angle-right"></i>Contact Us</a></li>
-
-
-
-                        <li><a href="contact-us.html"><i class="fa fa-angle-right"></i>Contact</a></li>
+                        <li><a href="../?a=rules"><i class="fa fa-angle-right"></i>Terms</a></li>
 
 
 
@@ -712,7 +708,7 @@
 
 
 
-                    <h3>© Copyright <a href="javascript:void(0)">2022 Busniz.</a> All Rights Reserved.</h3>
+                    <h3>© Copyright <a href="javascript:void(0)">2023 Golden TradeX LTD</a> All Rights Reserved.</h3>
 
 
 
