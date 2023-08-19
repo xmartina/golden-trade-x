@@ -85,9 +85,9 @@
                     <div class="logo">
 
                         <a href="javascript:void(0)">
-
-                            <img alt="logo" src="img/logo.png">
-
+                            <span class="py-2 px-3 rounded bg-white">
+                                <img alt="logo" src="img/logo-b.png">
+                            </span>
                         </a>
 
                         <p>Lorem ipsum dolor sit amet, consectetur
