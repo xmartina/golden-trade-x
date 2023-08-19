@@ -1172,7 +1172,7 @@
 
 
 
-    <div class="row custome-two" data-aos="fade-up" data-aos-duration="1000">
+    <div class="row custome-two mb-0 pb-0" data-aos="fade-up" data-aos-duration="1000">
 
 
 
