@@ -218,7 +218,7 @@
                 <a href="javascript:void(0);">Account</a>
                 <ul class="sub-menu">
                     <li>
-                        <a href="?=signup">Signup</a>
+                        <a href="?a=signup">Signup</a>
                     </li>
                     <li>
                         <a href="?a=login">Login</a>
