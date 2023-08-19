@@ -112,7 +112,7 @@
                                 </li>
 
                                 <li class="dropdown dropdown-1">
-                                    <a href="?a=about">
+                                    <a href="../?a=about">
                                         About
                                     </a>
                                 </li>
@@ -126,15 +126,15 @@
                                 </li>
 
                                 <li class="dropdown dropdown-1">
-                                    <a href="?a=faq">FAQ</a>
+                                    <a href="../?a=faq">FAQ</a>
                                 </li>
 
                                 <li class="dropdown dropdown-1">
-                                    <a href="?a=rules">Terms</a>
+                                    <a href="../?a=rules">Terms</a>
                                 </li>
 
                                 <li class="dropdown dropdown-1">
-                                    <a href="?a=support">Contact</a>
+                                    <a href="../?a=support">Contact</a>
                                 </li>
                             </ul>
                         </nav>
@@ -191,7 +191,7 @@
             </li>
 
             <li>
-                <a href="?a=about">About</a>
+                <a href="../?a=about">About</a>
             </li>
 
             <li class="">
@@ -203,25 +203,25 @@
             </li>
 
             <li class="">
-                <a href="?a=faq">FAQ</a>
+                <a href="../?a=faq">FAQ</a>
             </li>
 
             <li class="">
-                <a href="?a=rules">Terms</a>
+                <a href="../?a=rules">Terms</a>
             </li>
 
             <li class="">
-                <a href="?a=support">Contact</a>
+                <a href="../?a=support">Contact</a>
             </li>
 
             <li class="menu-item-has-children">
                 <a href="javascript:void(0);">Account</a>
                 <ul class="sub-menu">
                     <li>
-                        <a href="?a=signup">Signup</a>
+                        <a href="../?a=signup">Signup</a>
                     </li>
                     <li>
-                        <a href="?a=login">Login</a>
+                        <a href="../?a=login">Login</a>
                     </li>
                 </ul>
             </li>
@@ -782,10 +782,10 @@
             <div class="modal-body">
                 <div class="row gy-4">
                     <div class="col-lg-6">
-                        <div class="btn bg-info rounded px-4 w-100"><a href="?a=signup" class="text-light">Register</a></div>
+                        <div class="btn bg-info rounded px-4 w-100"><a href="../?a=signup" class="text-light">Register</a></div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="btn bg-primary rounded text-light px-4 w-100"><a href="?a=login" class="text-light">login</a></div>
+                        <div class="btn bg-primary rounded text-light px-4 w-100"><a href="../?a=login" class="text-light">login</a></div>
                     </div>
                 </div>
             </div>
