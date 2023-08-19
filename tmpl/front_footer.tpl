@@ -325,38 +325,6 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="consultation" data-aos="zoom-in-left" data-aos-delay="400" data-aos-duration="600">
-                    <h3>Contact me if you have any concerns</h3>
-                    <form class="fast">
-                        <select class="nice-select Advice" >
-                            <option>Finance Advice</option>
-                            <option>Finance Advice 1</option>
-                            <option>Finance Advice 2</option>
-                            <option>Finance Advice 3</option>
-                        </select>
-                        <input class="a" type="text" name="Complete Name" placeholder="Complete Name">
-                        <input class="a" type="text" name="Email" placeholder="Email Address">
-                        <textarea name="message" placeholder="Message Here"></textarea>
-                        <div class="view V">
-                            <button type="submit" class="btn-one" href="JavaScript:void(0)">
-                                <span class="txt">Send Message</span>
-                            </button>
-                        </div>
-                    </form>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade request-quote" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
                 <div class="row gy-4">
                     <div class="col-lg-6">
                         <div class="btn bg-info rounded px-4 w-100"><a href="?a=signup">Register</a></div>
@@ -369,5 +337,7 @@
         </div>
     </div>
 </div>
+
+
 
 </body>
