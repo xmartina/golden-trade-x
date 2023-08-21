@@ -101,9 +101,7 @@
 
 
 
-          <h3>Creative Business
-
-            Strategy</h3>
+          <h3>Welcome to Golden Trade X <span class="text-13">- Your Path to Prosperity</span> </h3>
 
 
 
