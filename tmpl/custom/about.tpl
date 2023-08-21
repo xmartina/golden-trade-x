@@ -143,13 +143,7 @@
 
 
 
-          <img alt="men see girl" src="https://via.placeholder.com/530x650">
-
-
-
-          <div class="rotate"><img class="rotate-me" alt="dodo" src="img/dream.png"></div>
-
-
+          <img alt="men see girl" src="/img/about/about-sec-2.jpg">
 
         </div>
 
