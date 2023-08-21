@@ -99,7 +99,6 @@
             {if $userinfo.logged}
               <td><b>{$userinfo.email}</b></td>
             {else}
-          </div>
               <label>
                 <input type="text" name="email" value="{$frm.email|escape:htmlall}" class="form-control" placeholder="Email Address">
               </label>
