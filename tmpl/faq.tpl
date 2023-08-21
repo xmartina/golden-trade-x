@@ -71,7 +71,7 @@
 
 								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
 
-									Let’s collaborate and make an impact
+									What is Golden Trade X Investment?
 
 								</button>
 
@@ -79,11 +79,8 @@
 
 							<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
 
-								<div class="accordion-body">We will work closely with you, as an extension of your team, to
-
-									provide solutions for all types of corporate events – from Gala
-
-									Dinners to Global also negotiate with each venue</div>
+								<div class="accordion-body">Golden Trade X Investment is a reputable and secure online platform that offers a range of investment opportunities for individuals looking to grow their wealth. Our platform is designed to provide easy access to various investment options, helping you make informed financial decisions.
+								</div>
 
 							</div>
 
@@ -95,7 +92,7 @@
 
 								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
 
-									A satisfied customer is the best business starts
+									How do I get started with investing on Golden Trade X Investment?
 
 								</button>
 
@@ -103,11 +100,8 @@
 
 							<div id="flush-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
 
-								<div class="accordion-body">We will work closely with you, as an extension of your team, to
-
-									provide solutions for all types of corporate events – from Gala
-
-									Dinners to Global also negotiate with each venue</div>
+								<div class="accordion-body">Getting started is simple! Just create an account on our website by providing your basic information. Once registered, you can explore the available investment options and choose the one that aligns with your financial goals and risk tolerance.
+								</div>
 
 							</div>
 
