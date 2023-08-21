@@ -7,7 +7,7 @@
 
   <div class="baner position-relative" style="background-image: url('/img/bg/about-breadcrumb.jpg');"
   >
-    <div class="position-absolute bg-light overlay-light top-0 w-100 h-100"></div>
+    <div class="position-absolute bg-muted overlay-light top-0 w-100 h-100"></div>
 
 
 
@@ -23,7 +23,7 @@
 
 
 
-          <h3 class="">About US</h3>
+          <h3 class="text-light">About US</h3>
 
 
 
