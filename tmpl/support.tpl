@@ -9,7 +9,7 @@
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-lg-6">
-        <div class="section-head mt-5 pt-5">
+        <div class="section-head contact-heading">
           <h2 class="title">Contact Us</h2>
         </div><!-- .section-head -->
       </div><!-- .col -->
@@ -99,6 +99,7 @@
             {if $userinfo.logged}
               <td><b>{$userinfo.email}</b></td>
             {else}
+          </div>
               <label>
                 <input type="text" name="email" value="{$frm.email|escape:htmlall}" class="form-control" placeholder="Email Address">
               </label>
