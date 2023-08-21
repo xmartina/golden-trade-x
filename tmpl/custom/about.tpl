@@ -101,21 +101,11 @@
 
 
 
-          <h3>Welcome to Golden Trade X  <div class="text-15 mt-2">- Your Path to Prosperity</div> </h3>
+          <h3>Welcome to Golden Trade X  <div class="text-15 text-warning mt-2">- Your Path to Prosperity</div> </h3>
 
 
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipi
-
-            do eiusmod tempor incididunt ut labore et dolo
-
-            qua. Ut enim ad minim veniam,quis nostrud ex
-
-            dolore eu fugiat nulla pariatur. Lorem ipsum do
-
-            lor sit amet, consectetur adipiscing elit, sd do
-
-            eiusmod tempor incididunt. </p>
+          <p>At Golden Trade X, we are more than just an investment platform – we are your partners in navigating the exciting world of crypto and stock trading. Our mission is to empower individuals like you to make informed investment decisions and achieve financial success.</p>
 
 
 
