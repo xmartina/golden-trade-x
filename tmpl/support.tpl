@@ -1,4 +1,4 @@
-{$SiteName = "Capital Coin Investment"}
+{$SiteName = "Golden Trade X LTD"}
 {$PageTage = "Secured Investment Platform"}
 {$siteLogo = "/assets/images/logo/logo.png"}
 {$siteLogoDark = "/assets/images/logo/logo.png"}
@@ -9,7 +9,7 @@
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-lg-6">
-        <div class="section-head">
+        <div class="section-head mt-5 pt-5">
           <h2 class="title">Contact Us</h2>
         </div><!-- .section-head -->
       </div><!-- .col -->
