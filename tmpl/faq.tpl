@@ -1,4 +1,5 @@
 {$pageName = "FAQ"}
+{$siteName = "Golden TradeX LTD"}
 {include file="front_header.tpl"}
 
 <section class="featured-area">
@@ -46,7 +47,7 @@
 <div class="section my-4">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-6">
+			<div class="col-lg-12">
 
 
 
@@ -54,11 +55,11 @@
 
 
 
-					<span>ABOUT THE VENUE AGENCY</span>
+					<span>Frequently Asked Questions</span>
 
 
 
-					<h3>Business Consulting Company FAQ’s</h3>
+					<h3>{$siteName} FAQ’s</h3>
 
 
 
