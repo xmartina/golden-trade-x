@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b6b44711-628e-4341-a770-2328f2b00207" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmpl/custom/about.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/tmpl/custom/about.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmpl/front_header.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/tmpl/front_header.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmpl/home.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/tmpl/home.tpl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +17,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,6 +40,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -60,7 +71,8 @@
       <workItem from="1692063672346" duration="8666000" />
       <workItem from="1692145730554" duration="2633000" />
       <workItem from="1692339540559" duration="3085000" />
-      <workItem from="1692410796191" duration="9475000" />
+      <workItem from="1692410796191" duration="12879000" />
+      <workItem from="1692608220118" duration="540000" />
     </task>
     <servers />
   </component>

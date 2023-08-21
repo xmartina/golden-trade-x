@@ -1,10 +1,11 @@
+{$pageName = "About Us"}
 {include file="front_header.tpl"}
 
 <section class="featured-area">
 
 
 
-  <div class="baner" style="background-image: url(https://via.placeholder.com/1920x430);"
+  <div class="baner" style="background-image: url('/img/bg/about-breadcrumb.jpg');"
   >
 
 
@@ -21,15 +22,15 @@
 
 
 
-          <h3>Service Details</h3>
+          <h3>About US</h3>
 
 
 
-          <a href="index.html">Home</a>
+          <a href="/">Home</a>
 
 
 
-          <a href="JavaScript:void(0)" class="on"><i class="fa fa-angle-right"></i>Service Details</a>
+          <a href="JavaScript:void(0)" class="on"><i class="fa fa-angle-right"></i>About Us</a>
 
 
 
