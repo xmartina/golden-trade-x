@@ -187,6 +187,10 @@
         Education: Knowledge is power. We offer a wealth of educational content, from beginner's guides to advanced strategies, to help you build your expertise.
         Security: Your security is paramount. We employ rigorous security measures to safeguard your investments and personal information.
       </p>
+      <div class="h4 mb-3">Join Us:</div>
+      <p class="mb-2">
+        Whether you're looking to dip your toes into the world of trading or you're an experienced investor seeking new opportunities, Golden Trade X is your gateway to success. Join us on this journey of growth, learning, and financial achievement.
+      </p>
     </div>
   </div>
 </div>
