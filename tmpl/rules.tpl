@@ -44,11 +44,11 @@
                 Third-Party Services: We may use third-party services to collect, process, and store information. These third parties have their own privacy policies.
 <p></p>
                 Data Security: We implement reasonable security measures to protect user information. However, no data transmission over the internet is completely secure.
-<p></p>
-                Data Retention: We retain user information for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required by law.
-<p></p>
+                <p class="my-3"></p>
+             <b>Data Retention:</b>    We retain user information for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required by law.
+                <p class="my-3"></p>
                <b>User Rights:</b>  Users have the right to access, correct, and delete their personal information. Requests can be submitted to [contact email].
-<p></p>
+                <p class="my-3"></p>
                 <b>Changes to Privacy Policy:</b>  We reserve the right to update and modify the Privacy Policy. Users will be notified of significant changes.
             </div>
         </div>
