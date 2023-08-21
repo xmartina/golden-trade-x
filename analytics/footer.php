@@ -8,8 +8,6 @@
 
         <div class="updates">
 
-
-
             <div class="row">
 
 
