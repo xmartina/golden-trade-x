@@ -12,5 +12,8 @@ html h3 .text-15{
 }
 html .contact-heading{
     line-height: 1.9!important;
-    margin-top:179px!important;
+    margin-top:210px!important;
+}
+html .line-height-1-9{
+    line-height:1.9!important;
 }

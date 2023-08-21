@@ -16,7 +16,7 @@
     </div><!-- .row -->
     <div class="row justify-content-center">
       <div class="col-lg-6">
-        <div class="my-3 mx-4">
+        <div class="my-3 mx-4 line-height-1-9">
           Do You have any questions?<br>
           We strongly recommend that you start searching for the necessary information in the <a href="?a=faq">FAQ</a>section.
           If you need advice or technical assistance, do not hesitate to contact our specialists.
@@ -116,7 +116,8 @@
             {/if}
             <div class="row">
               <div class="col-xl-3">
-                <button class="btn bg-info mx-2 my-2 text-light" type=submit value="Send">Submit</button>
+                <button class="btn bg-info mx-2 my-2 mb-5 text-light" type=submit value="Send">Submit</button>
+                <div class="pb-5"></div>
               </div>
             </div>
           </div>
