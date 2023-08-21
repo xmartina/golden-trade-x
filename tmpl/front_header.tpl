@@ -47,11 +47,7 @@
     <link rel="stylesheet" href="css/responsive.css">
 
     <link rel="stylesheet" href="css/color.css">
-
-
-
-
-
+    <link rel="stylesheet" href="/css/front-css.css">
 </head>
 
 <body>
