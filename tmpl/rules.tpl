@@ -9,7 +9,7 @@
 
 <div class="section">
     <div class="container">
-        <div class="my-5 term-border">
+        <div class="term-border">
             <div class="pl-4">
                 <h3>Terms of Use:</h3>
 
