@@ -101,7 +101,7 @@
 
 
 
-          <h3>Welcome to Golden Trade X  <div class="text-15 text-warning mt-2">- Your Path to Prosperity</div> </h3>
+          <h3>Welcome to Golden Trade X  <div class="text-15 text-info mt-2">- Your Path to Prosperity</div> </h3>
 
 
 
@@ -113,13 +113,13 @@
 
 
 
-            <li><i class="fa fa-check"></i>High-end Web Designs</li>
+            <li><i class="fa fa-check"></i>Account Management</li>
 
-            <li><i class="fa fa-check"></i>Professional Content</li>
+            <li><i class="fa fa-check"></i>Risk Management</li>
 
-            <li><i class="fa fa-check"></i>SEO Search Results</li>
+            <li><i class="fa fa-check"></i>Top Security</li>
 
-            <li><i class="fa fa-check"></i>Powerful Performance</li>
+            <li><i class="fa fa-check"></i>Great Customer Support</li>
 
 
 
