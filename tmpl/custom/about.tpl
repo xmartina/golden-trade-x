@@ -23,7 +23,7 @@
 
 
 
-          <h3 class="text-light">About US</h3>
+          <h3 class="">About US</h3>
 
 
 
