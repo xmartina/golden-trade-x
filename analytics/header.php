@@ -93,7 +93,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-2">
                     <div class="logo-gp">
-                        <a href="JavaScript:void(0)">
+                        <a href="/">
                             <img src="/img/logo-b.png" alt="logo" class="w-75">
                         </a>
                         <i class="fa fa-solid fa-bars desplay" id="nav-icon4"></i>
