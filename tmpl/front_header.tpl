@@ -118,10 +118,6 @@
                                 </li>
 
                                 <li class="dropdown dropdown-1">
-                                    <a href="../services">Services</a>
-                                </li>
-
-                                <li class="dropdown dropdown-1">
                                     <a href="?a=faq">FAQ</a>
                                 </li>
 
@@ -192,10 +188,6 @@
 
             <li class="">
                 <a href="../analytics">Analytics and Reporting</a>
-            </li>
-
-            <li class="">
-                <a href="../services">Services</a>
             </li>
 
             <li class="">
