@@ -173,7 +173,7 @@
   <div class="container">
     <div class="Creativ">
       <p>
-         <span class="h4">Who We Are:</span>
+         <div class="h4 my-3">Who We Are:</div>
         Golden Trade X is a premier destination for both seasoned investors and newcomers to the trading scene. With a team of experienced professionals and a dedication to cutting-edge technology, we offer a seamless and secure trading experience that opens doors to a world of possibilities.
       </p>
     </div>
