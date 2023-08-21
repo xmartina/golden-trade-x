@@ -101,7 +101,7 @@
 
 
 
-          <h3>Welcome to Golden Trade X  <div class="text-13">- Your Path to Prosperity</div> </h3>
+          <h3>Welcome to Golden Trade X  <div class="text-15 mt-2">- Your Path to Prosperity</div> </h3>
 
 
 
