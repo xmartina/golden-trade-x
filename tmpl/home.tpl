@@ -37,7 +37,7 @@
 
 
 
-                    <a class="btn-one" href="case-study-1.html">
+                    <a class="btn-one" href="../?a=about">
 
 
 
@@ -57,7 +57,7 @@
 
 
 
-                    <img src="img/hero/hero-1.jpg" alt="Services">
+                    <img src="/img/hero/hero-1.jpg" alt="Services">
 
 
 
@@ -85,7 +85,7 @@
 
 
 
-                    <a class="btn-one" href="case-study-1.html">
+                    <a class="btn-one" href="../?a=signup">
 
 
 
@@ -105,7 +105,7 @@
 
 
 
-                    <img src="img/hero/hero-2.jpg" alt="Services">
+                    <img src="/img/hero/hero-2.jpg" alt="Services">
 
 
 
@@ -133,7 +133,7 @@
 
 
 
-                    <a class="btn-one" href="case-study-1.html">
+                    <a class="btn-one" href="../?a=signup">
 
 
 
@@ -153,7 +153,7 @@
 
 
 
-                    <img src="img/hero/hero-3.jpg" alt="Services" style="object-fit: cover;">
+                    <img src="/img/hero/hero-3.jpg" alt="Services" style="object-fit: cover;">
 
 
 
@@ -181,7 +181,7 @@
 
 
 
-                    <a class="btn-one" href="case-study-1.html">
+                    <a class="btn-one" href="../?a=about">
 
 
 
@@ -201,7 +201,7 @@
 
 
 
-                    <img src="img/hero/hero-4.jpg" alt="Services">
+                    <img src="/img/hero/hero-4.jpg" alt="Services">
 
 
 
@@ -257,11 +257,11 @@
 
 
 
-                        <img alt="service" src="img/services-1.png">
+                        <img alt="service" src="/img/services-1.png">
 
 
 
-                        <a href="service-details.html"><i class="fa fa-angle-right"></i></a>
+                        <a href="../?a=about"><i class="fa fa-angle-right"></i></a>
 
 
 
@@ -297,11 +297,11 @@
 
 
 
-                        <img alt="service" src="img/services-2.png">
+                        <img alt="service" src="/img/services-2.png">
 
 
 
-                        <a href="service-details.html"><i class="fa fa-angle-right"></i></a>
+                        <a href="../?a=about"><i class="fa fa-angle-right"></i></a>
 
 
 
@@ -337,11 +337,11 @@
 
 
 
-                        <img alt="service" src="img/services-3.png">
+                        <img alt="service" src="/img/services-3.png">
 
 
 
-                        <a href="service-details.html"><i class="fa fa-angle-right"></i></a>
+                        <a href="../?a=about"><i class="fa fa-angle-right"></i></a>
 
 
 
@@ -405,7 +405,7 @@
 
 
 
-                    <img alt="men see girl" src="img/home-sec-2/home-sec-2-2.jpg">
+                    <img alt="men see girl" src="/img/home-sec-2/home-sec-2-2.jpg">
 
 
 
@@ -519,7 +519,7 @@
 
 
 
-        <img alt="heading-img" src="img/boal.png">
+        <img alt="heading-img" src="/img/boal.png">
 
 
 
@@ -559,7 +559,7 @@
 
 
 
-                        <img alt="man laptop" src="img/home-feature/home-fea-1.jpg" class="w-100 img-fluid">
+                        <img alt="man laptop" src="/img/home-feature/home-fea-1.jpg" class="w-100 img-fluid">
 
 
 
@@ -1080,11 +1080,11 @@
 
 
 
-                        <a class="btn-one" href="JavaScript:void(0)">
+                        <a class="btn-one" href="JavaScript:void(0)" onclick="location.href={if $userinfo.logged != 1}'../?a=signup'{else}'../?a=deposit'{/if}">
 
 
 
-                            <span class="txt">Purchase now</span>
+                            <span class="txt">{if $userinfo.logged != 1}Purchase now{else}Invest Now{/if}</span>
 
 
 
