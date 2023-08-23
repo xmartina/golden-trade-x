@@ -1078,15 +1078,9 @@
 
                     <div class="Purchase">
 
-
-
                         <a class="btn-one" href="JavaScript:void(0)" onclick="location.href={if $userinfo.logged != 1}'../?a=signup'{else}'../?a=deposit'{/if}">
 
-
-
                             <span class="txt">{if $userinfo.logged != 1}Purchase now{else}Invest Now{/if}</span>
-
-
 
                         </a>
 
@@ -1178,13 +1172,9 @@
 
 
 
-                        <a class="btn-one" href="JavaScript:void(0)">
+                        <a class="btn-one" href="JavaScript:void(0)" onclick="location.href={if $userinfo.logged != 1}'../?a=signup'{else}'../?a=deposit'{/if}">
 
-
-
-                            <span class="txt">Purchase now</span>
-
-
+                            <span class="txt">{if $userinfo.logged != 1}Purchase now{else}Invest Now{/if}</span>
 
                         </a>
 
@@ -1268,19 +1258,11 @@
 
                     <div class="Purchase">
 
+                        <a class="btn-one" href="JavaScript:void(0)" onclick="location.href={if $userinfo.logged != 1}'../?a=signup'{else}'../?a=deposit'{/if}">
 
-
-                        <a class="btn-one" href="JavaScript:void(0)">
-
-
-
-                            <span class="txt">Purchase now</span>
-
-
+                            <span class="txt">{if $userinfo.logged != 1}Purchase now{else}Invest Now{/if}</span>
 
                         </a>
-
-
 
                     </div>
 
@@ -1357,19 +1339,11 @@
 
                     <div class="Purchase">
 
+                        <a class="btn-one" href="JavaScript:void(0)" onclick="location.href={if $userinfo.logged != 1}'../?a=signup'{else}'../?a=deposit'{/if}">
 
-
-                        <a class="btn-one" href="JavaScript:void(0)">
-
-
-
-                            <span class="txt">Purchase now</span>
-
-
+                            <span class="txt">{if $userinfo.logged != 1}Purchase now{else}Invest Now{/if}</span>
 
                         </a>
-
-
 
                     </div>
 
@@ -1446,20 +1420,11 @@
 
                     <div class="Purchase">
 
+                        <a class="btn-one" href="JavaScript:void(0)" onclick="location.href={if $userinfo.logged != 1}'../?a=signup'{else}'../?a=deposit'{/if}">
 
-
-                        <a class="btn-one" href="JavaScript:void(0)">
-
-
-
-                            <span class="txt">Purchase now</span>
-
-
+                            <span class="txt">{if $userinfo.logged != 1}Purchase now{else}Invest Now{/if}</span>
 
                         </a>
-
-
-
                     </div>
 
 
@@ -1538,19 +1503,11 @@
 
                     <div class="Purchase">
 
+                        <a class="btn-one" href="JavaScript:void(0)" onclick="location.href={if $userinfo.logged != 1}'../?a=signup'{else}'../?a=deposit'{/if}">
 
-
-                        <a class="btn-one" href="JavaScript:void(0)">
-
-
-
-                            <span class="txt">Purchase now</span>
-
-
+                            <span class="txt">{if $userinfo.logged != 1}Purchase now{else}Invest Now{/if}</span>
 
                         </a>
-
-
 
                     </div>
 
@@ -1630,18 +1587,11 @@
 
                     <div class="Purchase">
 
+                        <a class="btn-one" href="JavaScript:void(0)" onclick="location.href={if $userinfo.logged != 1}'../?a=signup'{else}'../?a=deposit'{/if}">
 
-
-                        <a class="btn-one" href="JavaScript:void(0)">
-
-
-
-                            <span class="txt">Purchase now</span>
-
-
+                            <span class="txt">{if $userinfo.logged != 1}Purchase now{else}Invest Now{/if}</span>
 
                         </a>
-
 
 
                     </div>
@@ -1722,19 +1672,11 @@
 
                     <div class="Purchase">
 
+                        <a class="btn-one" href="JavaScript:void(0)" onclick="location.href={if $userinfo.logged != 1}'../?a=signup'{else}'../?a=deposit'{/if}">
 
-
-                        <a class="btn-one" href="JavaScript:void(0)">
-
-
-
-                            <span class="txt">Purchase now</span>
-
-
+                            <span class="txt">{if $userinfo.logged != 1}Purchase now{else}Invest Now{/if}</span>
 
                         </a>
-
-
 
                     </div>
 
